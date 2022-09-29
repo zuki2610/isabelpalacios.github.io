@@ -11,7 +11,7 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-<header>
+<header class="fixed-top">
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container">
             <a class="navbar-brand ps-5" href="#">
@@ -24,16 +24,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#Hero-Section">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Bio</a>
+                        <a class="nav-link" href="#bio">Bio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portafolio</a>
+                        <a class="nav-link" href="#portafolio">Portafolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -41,7 +41,7 @@
     </nav>
 </header>
 <section id="Hero-Section" class="bg-dark text-light text-end py-5 mt-0 pe-5">
-    <div class="container">
+    <div class="container" style="padding-top: 23vh;">
         <div class="ms-auto col-12 col-md-7">
             <div class="d-flex">
                 <div class="flex-shrink-0 hero">
@@ -55,15 +55,15 @@
                         Desarrolador Full Stack Javascript
                     </p>
                     <div class="mb-5 pb-5">
-                        <button class="btn btn-lg btn-outline-info text-light me-4">Proyectos</button>
-                        <button class="btn btn-lg btn-info text-light">Contacto</button>
+                        <a href="#portafolio" class="btn btn-lg btn-outline-info text-light me-4">Proyectos</a>
+                        <a href="#contacto" class="btn btn-lg btn-info text-light">Contacto</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="pt-5 pb-5">
+<section id="bio" class="pt-5 pb-5">
     <div class="container ps-5 pt-5">
         <h2 class="text-light ps-5 pt-5">Bio</h2>
         <p class="parrafo text-end text-light ps-5 fs-5"> Actualmente estudio para ser Desarrolladora Web Full Stack.
@@ -109,7 +109,7 @@
         </div>
     </div>
 </section>
-<section class="ps-5 pe-5 pt-5 pb-5">
+<section id="portafolio" class="ps-5 pe-5 pt-5 pb-5">
     <div class="container">
     <h2 class="text-light ps-5">Proyectos Realizados</h2>
     <p class="text-light ps-5 pb-5">Haciendo click en los titulos podrás acceder al repositorio en Github</p>
@@ -152,7 +152,7 @@
         </button>
       </div> </div>
 </section>
-<section>
+<section id="contacto">
     <div class="text-white text-center pt-4 pb-4">
         <form class="container">
             <h3 class="">Escribeme y estaremos en contacto</h3>
@@ -176,14 +176,14 @@
     
     <p class="text-light">Sigueme en mis redes sociales</p>
     <ul>
-        <li class="d-inline ps-5 pe-5"><a href="https://www.linkedin.com/in/isabel-palacios-8b2213185/"
+        <li class="d-inline"><a href="https://www.linkedin.com/in/isabel-palacios-8b2213185/"
             target="_blank"><i class="fa fa-linkedin" style="color: white"></i></a></li>
-        <li class="d-inline ps-5 pe-5"><a href="https://www.instagram.com/poshisa/" target="_blank">
+        <li class="d-inline"><a href="https://www.instagram.com/poshisa/" target="_blank">
             <i class="fa fa-instagram" style="color: white"></i></a></li>
-        <li class="d-inline ps-5 pe-5"><a href="mailto:issabelpalacios@gmail.com"
+        <li class="d-inline"><a href="mailto:issabelpalacios@gmail.com"
             target="_blank"><i class="fa fa-at" style="color: white"></i></a>
-        <li class="d-inline ps-5 pe-5"><a href="tel:(+56)938854308" target="_blank"></a></li><i class="fa fa-phone" style="color: white"></i>
-        <li class="d-inline ps-5 pe-5"><a href="https://github.com/zuki2610" target="-blank"><i class="fa fa-github" style="color: white"></i></li>
+        <li class="d-inline"><a href="tel:(+56)938854308" target="_blank"></a></li><i class="fa fa-phone" style="color: white"></i>
+        <li class="d-inline"><a href="https://github.com/zuki2610" target="-blank"><i class="fa fa-github" style="color: white"></i></li>
     </ul>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
