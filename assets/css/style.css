@@ -17,3 +17,11 @@
     margin-left: 45vw;  
     padding-left: 14vw;  
 }
+.text-none {
+    text-decoration: none;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+} 
