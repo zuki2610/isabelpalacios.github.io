@@ -5,3 +5,15 @@
     margin-top: 6vh;
     margin-left: -26vw;
 }
+.parrafo {
+    width: 50%;
+}
+.parrafo-contrario {
+    width:50%;
+   margin-left: 40vw;
+}
+.titulo-contrario {
+    width:50%;
+    margin-left: 45vw;  
+    padding-left: 14vw;  
+}
