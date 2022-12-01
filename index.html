@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <header class="fixed-top">
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container">
@@ -42,21 +42,23 @@
 </header>
 <section id="Hero-Section" class="bg-dark text-light text-end py-5 mt-0 pe-5">
     <div class="container" style="padding-top: 23vh;">
-        <div class="ms-auto col-12 col-md-7">
-            <div class="d-flex">
-                <div class="flex-shrink-0 hero">
-                    <img src="assets/img/foto.jpeg" class="rounded-4" alt="Isabel" height="350px">
-                </div>
-                <div class="flex-grow-1 ms-3">
-                    <h1 id="titulo" class="display-1 fw-bold my-5 mt-0">
-                        Hola! <br> Soy Isabel Palacios
-                    </h1>
-                    <p id="parrafo" class="fs-2 mb-1">
-                        Desarrollador Full Stack Javascript
-                    </p>
-                    <div class="mb-5 pb-5">
-                        <a href="#portafolio" class="btn btn-lg btn-outline-info text-light me-4">Proyectos</a>
-                        <a href="#contacto" class="btn btn-lg btn-info text-light">Contacto</a>
+        <div class="row">
+            <div class="ms-auto col-12 col-md-7">
+                <div class="d-flex">
+                    <div class="flex-shrink-0 hero">
+                        <img class="hero-img"src="assets/img/foto.jpeg" class="rounded-4" alt="Isabel" height="350px">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h1 id="titulo" class="display-1 fw-bold my-5 mt-0">
+                            Hola! <br> Soy Isabel Palacios
+                        </h1>
+                        <p id="parrafo" class="fs-2 mb-1">
+                            Desarrollador Full Stack Javascript
+                        </p>
+                        <div class="mb-5 pb-5">
+                            <a href="#portafolio" class="btn btn-lg btn-outline-info text-light me-4 hover1">Proyectos</a>
+                            <a href="#contacto" class="btn btn-lg btn-info text-light">Contacto</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -65,7 +67,7 @@
 </section>
 <section id="bio" class="pt-5 pb-5">
     <div class="container ps-5 pt-5">
-        <h2 class="text-light ps-5 pt-5">Bio</h2>
+        <h2 class="text-light ps-5 pt-5 titulo">Bio</h2>
         <p class="parrafo text-end text-light ps-5 fs-5"> Actualmente estudio para ser Desarrolladora Web Full Stack.
             Mi objetivo es marcar la diferencia a través de soluciones creativas. Trabajar con equipos de proyectos para
             crear interfaces de aplicaciones y sitios web que ayuden a facilitar y hacer la vida más facil a las
@@ -77,32 +79,36 @@
             mision es desarrollar software a medida,
             tanto para backend frontend y mobile</p>
     </div>
-    <div class="container ps-5">
-        <h2 class="text-light pb-5">Estudios cursados actualmente</h2>
-        <div class="row ps-5">
+    <div class="container">
+        <h2 class="text-light pb-5 estudios">Estudios cursados actualmente</h2>
+        <div class="cards row">
             <div class="col-md-4">
                 <div class="card" style="width: 18rem; height: 18 rem;">
-                    <img src="assets/img/desafio.jpg" style="height: 8rem;"class="card-img-top" alt="desafio">
+                    <img src="assets/img/desafio.jpg" style="height: 8rem;" class="card-img-top" alt="desafio">
                     <div class="card-body">
-                        <p class="card-text text-light">Desarrollador Full Stack Javascript. Generacion 27 Cursada a cargo
+                        <p class="card-text text-light">Desarrollador Full Stack Javascript. Generacion 27 Cursada a
+                            cargo
                             del Prof. Sebastian Vidal. Iniciado en Julio 2022.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card" style="width: 18rem; height: 18 rem;">
-                    <img src="assets/img/usach.png" style="height: 8rem;"class="card-img-top" alt="usach">
+                    <img src="assets/img/usach.png" style="height: 8rem;" class="card-img-top" alt="usach">
                     <div class="card-body">
-                        <p class="card-text text-light">Software Libre Chile en conjunto a la USACH. Desarrollador Frontend. Generacion 22-S2 Cursada a cargo
+                        <p class="card-text text-light">Software Libre Chile en conjunto a la USACH. Desarrollador
+                            Frontend. Generacion 22-S2 Cursada a cargo
                             del
-                            Prof. Sebastian Becerra</p>
+                            Prof. Gonzalo Flemming</p>
                     </div>
                 </div>
-            </div><div class="col-md-4">
+            </div>
+            <div class="col-md-4">
                 <div class="card" style="width: 18rem; height: 18 rem;">
                     <img src="assets/img/digital.png" style="height: 8rem;" class="card-img-top" alt="coder">
                     <div class="card-body">
-                        <p class="card-text text-light">Certified Tech Developer. Cursada diseñada por mercadolibre y Globant dictada por Digital House. Generacion 22/10</p>
+                        <p class="card-text text-light">Certified Tech Developer. Cursada diseñada por mercadolibre y
+                            Globant dictada por Digital House. Generacion 10-2022</p>
                     </div>
                 </div>
             </div>
@@ -110,47 +116,66 @@
     </div>
 </section>
 <section id="portafolio" class="ps-5 pe-5 pt-5 pb-5">
-    <div class="container">
-    <h2 class="text-light ps-5">Proyectos Realizados</h2>
-    <p class="text-light ps-5 pb-5">Haciendo click en los titulos podrás acceder al repositorio en Github</p>
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div class="container containerh2">
+        <h2 class="text-light ps-5 containerh2">Proyectos Realizados</h2>
+        <p class="text-light ps-5 pb-5 containerp">Haciendo click en los titulos podrás acceder al repositorio en Github</p>
+        <p class="text-light ps-5 pb-5 containerpm">Disponibles en mi Github User: zuki2610</p>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/img/dos.jpg" class="d-block w-100" alt="avengers">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="text-none" href="https://github.com/zuki2610/desafio-latam-isabel-palacios"
+                            target="_blank">
+                            <h5 class="text-light">Construyendo un Landing Page</h5>
+                        </a>
+                        <p class="text-light">En este proyecto se realizó un landing page con css puro. Si haces click
+                            en el título te llevará al repositorio en github.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/img/tres.jpg" class="d-block w-100" alt="desafio">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="text-none" href="https://github.com/zuki2610/desafio_3_isabel_palacios"
+                            target="_blank">
+                            <h5 class="text-light">Iguana Page</h5>
+                        </a>
+                        <p class="text-light">En este proyecto se realizó un landing page bajo indicaciones de una
+                            maqueta de diseño. Si haces click en el título te llevará al repositorio en github.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/cuatro.jpg" class="d-block w-100" alt="desafio.">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="text-none" href="https://github.com/zuki2610/fdsw-github-desafio-isabel-palacios"
+                            target="_blank">
+                            <h5 class="text-light">Proyecto de Frontend</h5>
+                        </a>
+                        <p class="text-light">En este proyecto se realizó un diseño maquetado en Fignma utilizando Git, Github y
+                            Github Pages. Si haces click en el título te llevará al repositorio en github.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="assets/img/dos.jpg" class="d-block w-100" alt="avengers">
-            <div class="carousel-caption d-none d-md-block">
-              <a class="text-none" href="https://github.com/zuki2610/desafio-latam-isabel-palacios" target="_blank"><h5 class="text-light">Construyendo un Landing Page</h5></a>
-              <p class="text-light">En este proyecto se realizó un landing page con css puro. Si haces click en el título te llevará al repositorio en github.</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="assets/img/tres.jpg" class="d-block w-100" alt="desafio">
-            <div class="carousel-caption d-none d-md-block">
-              <a class="text-none" href="https://github.com/zuki2610/desafio_3_isabel_palacios" target="_blank"><h5 class="text-light">Iguana Page</h5></a>
-              <p class="text-light">En este proyecto se realizó un landing page bajo indicaciones de una maqueta de diseño. Si haces click en el título te llevará al repositorio en github.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/cuatro.jpg" class="d-block w-100" alt="desafio.">
-            <div class="carousel-caption d-none d-md-block">
-                <a class="text-none" href="https://github.com/zuki2610/fdsw-github-desafio-isabel-palacios" target="_blank"><h5 class="text-light">Conociendo Git Github Github Pages</h5></a>
-                <p class="text-light">En este proyecto se realizó un diseño libre utilizando Git, Github y Github Pages. Si haces click en el título te llevará al repositorio en github.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div> </div>
+    </div>
 </section>
 <section id="contacto">
     <div class="text-white text-center pt-4 pb-4">
@@ -172,18 +197,18 @@
         </form>
     </div>
 </section>
-<footer class="fs-4 pt-5 ps-5">
-    
-    <p class="text-light">Sigueme en mis redes sociales</p>
-    <ul>
-        <li class="d-inline"><a href="https://www.linkedin.com/in/isabel-palacios-8b2213185/"
-            target="_blank"><i class="fa fa-linkedin" style="color: white"></i></a></li>
-        <li class="d-inline"><a href="https://www.instagram.com/poshisa/" target="_blank">
-            <i class="fa fa-instagram" style="color: white"></i></a></li>
-        <li class="d-inline"><a href="mailto:issabelpalacios@gmail.com"
-            target="_blank"><i class="fa fa-at" style="color: white"></i></a>
-        <li class="d-inline"><a href="tel:(+56)938854308" target="_blank"></a></li><i class="fa fa-phone" style="color: white"></i>
-        <li class="d-inline"><a href="https://github.com/zuki2610" target="-blank"><i class="fa fa-github" style="color: white"></i></li>
+<footer class="fs-4 pt-5">
+
+    <p class="text-light text-center">Sigueme en mis redes sociales</p>
+    <ul class="redes ps-0 text-start">
+        <li class="d-inline hover1 ps-0"><a href="https://www.linkedin.com/in/isabel-palacios-8b2213185/" target="_blank"><i
+                    class="fa fa-linkedin" style="color: white"></i></a></li>
+        <li class="d-inline hover ps-01"><a href="mailto:issabelpalacios@gmail.com" target="_blank"><i class="fa fa-at"
+                    style="color: white"></i></a>
+        <li class="d-inline hover1 ps-0"><a href="tel:(+56)938854308" target="_blank"></a></li><i class="fa fa-phone"
+            style="color: white"></i>
+        <li class="d-inline hover1 ps-0"><a href="https://github.com/zuki2610" target="-blank"><i class="fa fa-github"
+                    style="color: white"></i></li>
     </ul>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
